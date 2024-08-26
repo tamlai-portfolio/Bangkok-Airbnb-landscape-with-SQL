@@ -5,7 +5,11 @@ Airbnb landscape in Bangkok
 ## Data description:
 The data is collected through Inside Airbnb website which is a web-scraping data for Airbnb listings in many cities around the world.
 
-The data set used in this exercise is Bangkok Airbnb as of June'2024
+The dataset include 3 main csv files and is collected as of June'2024 for Bangkok Airbnb:
+
+1. **Listing data:** contains all scraped data about listings in Sydney with listing_id as primary key
+2. **Reviews data**: contains all scraped available comments about listing_id with comment id as primary key and listing_id as foreign key referencing to listing table
+3. **Calendar data:** contains data about the price and availability of listing in the next 365 days with listing_id as foreign key referencing to listing table
 
 Purpose of this project: Apply SQL queries for data exploratory analysis of Airbnb landscape in Bangkok.
 
@@ -16,7 +20,7 @@ Purpose of this project: Apply SQL queries for data exploratory analysis of Airb
 2. SQL queries to define data schema
 3. Load data from source to SQL connections
    
-### B. Data exploratory:
+### B. Data exploratory questions:
 
 1. Listing overall landscape:
 
