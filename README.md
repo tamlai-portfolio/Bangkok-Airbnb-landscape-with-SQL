@@ -15,12 +15,14 @@ Purpose of this project: Apply SQL queries for data exploratory analysis of Airb
 
 ## Data analysis process:
 
-### A. Create data tables:
+### A. Create data tables: 
 1. Define relationship of tables within dataset
 2. SQL queries to define data schema
 3. Load data from source to SQL connections
+Full process for creating tables with SQL queries: [create.sql](https://github.com/tamlai-portfolio/Bangkok-Airbnb-landscape-with-SQL/blob/main/create.sql)
    
 ### B. Data exploratory questions:
+Full SQL queries for analysis : [Airbnb landscape Bangkok.sql](https://github.com/tamlai-portfolio/Bangkok-Airbnb-landscape-with-SQL/blob/main/Airbnb%20landscape%20Bangkok.sql)
 
 1. Listing overall landscape:
 
